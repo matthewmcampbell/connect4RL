@@ -149,6 +149,8 @@ var/
 .installed.cfg
 *.egg
 
+.idea/
+
 # Serverless directories
 .serverless
 /.streamlit/
