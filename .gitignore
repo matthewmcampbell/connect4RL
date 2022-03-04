@@ -127,3 +127,30 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/data/
+
+
+# Appending from Serverless .gitignore
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Serverless directories
+.serverless
+/.streamlit/
+/serverless-ddqn-connectfour/model/*
+!/serverless-ddqn-connectfour/model/ddqn.py
