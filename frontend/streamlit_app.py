@@ -110,8 +110,7 @@ def win_process():
     st.success("You win! Congrats!")
 
 def loss_process():
-    st.snow()
-    st.warning("Failure...")
+    st.warning("Failure... the AI beat you!")
 
 def end_game(win_status):
     st.session_state.button_disable = True
