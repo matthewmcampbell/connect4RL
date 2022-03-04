@@ -120,7 +120,7 @@ class DDQN:
         def ensure_valid_action():
             action = (model(FloatTensor(observation)) * valid_action).data.max(1)[1].view(1, 1).item()
             if action not in valid_cols:
-                print("this", valid_cols)
+                # print("this", valid_cols)
                 action = random.choice([i for i in range(self.choices) if valid_action[0][i]])
             return action
 

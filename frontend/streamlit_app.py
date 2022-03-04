@@ -172,3 +172,12 @@ buttons = [
     for i in range(NCOLS)
 ]
 st.button("Reset Game", on_click=reset_game)
+st.sidebar.title("Self-play reinforcement AI")
+st.sidebar.text("This app is built using a:")
+st.sidebar.image(IMG_FOLDER + "docker_torch.png", caption="Dockerized PyTorch Model")
+st.sidebar.text("With cloud based,\nstate-dependent API requests:")
+st.sidebar.image(IMG_FOLDER + "test.png", caption="Cloud Architecture")
+st.sidebar.text("With frontend built in:")
+st.sidebar.image(IMG_FOLDER + "streamlit.png")
+st.sidebar.text("Enjoy! :)")
+st.sidebar.markdown("[Git Repo](https://github.com/matthewmcampbell/connect4RL)")
